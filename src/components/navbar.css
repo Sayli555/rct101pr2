@@ -1,0 +1,58 @@
+.navbar{
+    border: 1px solid black;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    width:95%;
+    height: 50px;
+    display: flex;
+}
+.navbarset{
+  
+}
+.navbar>:nth-child(1){
+    margin-left: 12%;
+    padding: 5px;
+    height: 28px;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: rgb(37, 37, 37);
+    box-shadow: rgba(132, 132, 133, 0.983) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+.navbar>:nth-child(2){
+    display: flex;
+    margin-left: 20%;
+    padding: 5px;
+    height: 28px;
+    color: white;
+    margin-top: 5px;
+    
+    /* box-shadow: rgba(132, 132, 133, 0.983) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px; */
+
+}
+.navbarset>div{
+margin-left: 14%;
+}
+.navbar>:nth-child(3){
+    display: flex;
+    margin-left: 25%;
+    padding: 5px;
+    height: 28px;
+    color: white;
+    margin-top: 5px;
+    
+
+}
+.navbar>:nth-child(3)>button{
+background-color: blue;
+color: white;
+font-weight: bold;
+
+border-radius: 15px;
+}
+.navbar>:nth-child(3)>button:hover{
+    background-color: rgb(105, 102, 102);
+    color: white;
+    box-shadow: rgba(132, 132, 133, 0.983) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+
+}
